@@ -1,1 +1,9 @@
-console.assert(2 + 2 === 4, "2 + 2 should equal 4");
+const  assertEqual = function(actual, expected) {
+  if (actual === expected) {
+    console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
+  } else {
+    console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
+  }
+}
+
+module.exports = assertEqual;
