@@ -18,8 +18,8 @@ const countLetters = function (string) {
   return (results)
 }
 
-//Test code
-const results = countLetters("lighthouse in the house");
+//Test
+const results = countLetters
 assertEqual(results["l"], 1);
 assertEqual(results["i"], 2);
 assertEqual(results["e"], 3);
